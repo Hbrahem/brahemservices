@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Habib Brahem</title>
+    <!-- Style CSS -->
+    <style>
+        /* Réinitialisation générale */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        /* Titre principal */
+        h1 {
+            font-size: 2.8rem;
+            text-align: center;
+            margin: 50px 0 20px;
+            color: #ff4a57;
+        }
+
+        /* Section Reels Instagram */
+        .reels-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 20px;
+        }
+
+        /* Bloc Reel Instagram */
+        .reel-block {
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+            overflow: hidden;
+            width: 320px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .reel-block:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(255, 74, 87, 0.7);
+        }
+
+        blockquote.instagram-media {
+            margin: 0;
+            border: none;
+            min-width: 100%;
+        }
+
+        /* Pied de page */
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Titre Principal -->
+    <h1>Mes Reels Instagram</h1>
+
+    <!-- Section Reels Instagram -->
+    <div class="reels-container">
+        <!-- Première Vidéo Reel -->
+        <div class="reel-block">
+            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C9anChjolhz/?utm_source=ig_embed" data-instgrm-version="14">
+                <a href="https://www.instagram.com/reel/C9anChjolhz/?utm_source=ig_embed" target="_blank"></a>
+            </blockquote>
+        </div>
+
+        <!-- Deuxième Vidéo Reel -->
+        <div class="reel-block">
+            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C9xEfgjhk45/?utm_source=ig_embed" data-instgrm-version="14">
+                <a href="https://www.instagram.com/reel/C9xEfgjhk45/?utm_source=ig_embed" target="_blank"></a>
+            </blockquote>
+        </div>
+
+        <!-- Troisième Vidéo Reel -->
+        <div class="reel-block">
+            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C8YsXjZp4Fx/?utm_source=ig_embed" data-instgrm-version="14">
+                <a href="https://www.instagram.com/reel/C8YsXjZp4Fx/?utm_source=ig_embed" target="_blank"></a>
+            </blockquote>
+        </div>
+    </div>
+
+    <!-- Script pour charger les Reels Instagram -->
+    <script async src="https://www.instagram.com/embed.js"></script>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>© 2024 Habib Brahem | Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
